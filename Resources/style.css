@@ -54,8 +54,8 @@ button:hover {
   
 .trivia {
     border: 5px solid #3c392e;
-    margin: 10px;
-    padding: 20px 50px 0px 50px;
+    margin: 40px;
+    padding: 40px 50px 40px 50px;
 }
     
 .rudolph {
@@ -65,11 +65,12 @@ button:hover {
 
 #reveal {
     clear: both;
-    padding: 40px 40px 0px 40px;
+    margin: 50px;
 }
 
-.santa {
+#santa {
     display: none;
+    margin: 40px 200px;
 }
 
 .answer {

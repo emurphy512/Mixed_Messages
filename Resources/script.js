@@ -48,3 +48,7 @@ function getRudolphAnswer(){
     //print Rudolph's answer to screen
     document.getElementById("reveal").innerHTML = `${rudolphAnswer}`;
 };
+
+function showSanta(){
+    document.getElementById('santa').style.display = 'block';
+}
