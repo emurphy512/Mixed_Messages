@@ -52,3 +52,7 @@ function getRudolphAnswer(){
 function showSanta(){
     document.getElementById('santa').style.display = 'block';
 }
+
+function resetButton(){
+    document.getElementsByTagName('button')[0].innerHTML = "Try Again!";
+}
